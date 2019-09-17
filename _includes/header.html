@@ -2,11 +2,8 @@
   <div class="navigation-wrapper">
     <a href="{{ site.baseurl }}/" class="logo">
       {% if site.logo %}
-	  <!-- <span>{{ site.name }}</span> -->
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-	  <!-- <span>{{ site.name2 }}</span> -->
       {% else %}
-	  <span>{{ site.name }}</span>
       <span>{{ site.title }}</span>
       {% endif %}
     </a>
@@ -15,11 +12,7 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+				{% include nav_links.html %}
       </ul>
     </nav>
   </div>

@@ -7,7 +7,7 @@ $b3: 480px;
 $mobile: $b3;
 $b2: 768px;
 $tablet: $b2;
-$b1: 1366px;
+$b1: 960px;
 $desktop: $b1;
 
 /*
@@ -20,8 +20,14 @@ html, body {
 }
 
 table {
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	width: 200px;
+	width: 240px;
+}
+
+tr, td {
+	border-bottom: 0px solid;
 }
 
 ol.default {
@@ -41,9 +47,10 @@ code {
 
 .fai {
 	display: inline-block;
-	border-radius: 10px;
-	box-shadow: 0px 0px 2px #d35400;
-	padding: 0.5em 0.45em;
+	border-radius: 10em;
+	color: $green;
+	box-shadow: 2px 2px 2px 0px #ffffff;
+	padding: 0.5em 0.5em;
 }
 
 pre code.hljs {
@@ -85,26 +92,26 @@ pre code.hljs {
 	width: 100%;
 	text-align: center;
 	&.has-cover {
-		height: 12em;
+		height: 10em;
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
-		background-position: 50% 45%;
+		background-position: 50% 0%;
 		background-size: cover;
 		.title {
-			font-size: modular-scale(3);
+			font-size: modular-scale(2);
 		}
 		.subtitle, .info {
-			font-size: modular-scale(2);
+			font-size: modular-scale(1);
 		}
 	}
 	.scrim {
-		height: 12em;
-		padding: 3em 1em;
+		height: 10em;
+		padding: 1em 1em;
 		&.has-cover {
-			background-color: rgba(0,0,0,0.2);
-			padding: 3em 1em !important;
+			background-color: rgba(0,0,0,0.3);
+			padding: 1em 10em !important;
 			@include media($tablet) {
-				padding: 3em 1em !important;
+				padding: 1em 1em !important;
 			}
 		}
 	}
@@ -147,13 +154,9 @@ pre code.hljs {
       max-height: 2.5em;
       margin-top: 0.75em;
       padding-right: 1em;
-	  padding-left: 1em;
     }
     span {
-	  max-height: 2.5em;
-	  margin-top: 0.75em;
-      font-size: 1.4em;
-	  vertical-align:bottom;
+    	font-size: 1.25em;
     }
   }
   nav {
@@ -256,11 +259,11 @@ pre code.hljs {
 		background-color: $highlight-color;
 		.site-header{
 			.title {
-				font-size: modular-scale(3);
+				font-size: modular-scale(4);
 			}
 			.subtitle {
-				//font-style: italic;
-				font-size: modular-scale(2);
+				font-style: italic;
+				font-size: modular-scale(1);
 			}
 		}
 	}
