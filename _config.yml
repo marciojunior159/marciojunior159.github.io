@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Márcio Lopes Jr
-subtitle: Engineer | Data Scientist
+title: Márcio Lopes Júnior
+subtitle: Engineer & Data Scientist
 email: marciojunior159@gmail.com
-name: Márcio Lopes Jr
+name: Márcio Lopes Júnior
 description: >
   Hello, World! This is my personal GitHub page. :)
 # Base URL of site (i.e. /blog). It should always start with a slash,

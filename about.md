@@ -9,14 +9,17 @@ main_nav: true
 
 Hello! My name is Márcio and I'm from Natal, Rio Grande do Norte, Brazil. Currently, I'm working my way into the world of Data Science and Machine Learning.
 
-[Personal](#personal) **&middot;** [Education](#education) **&middot;** [Experience](#experience) 
+**[Personal](#personal)** **&middot;** **[Education](#education)** **&middot;** **[Experience](#experience)** 
 <div style="text-align: right"> &#x2600; </div>
+
+<br/>
+<br/>
 
 ------
 
 ### Personal
 
-I'm <i>[potiguar][potiguar]</i> and I was born in 1993. I began coding in 2012, when I started my graduation in S&T -- initially programming in C/C++. I believe that my first experience, and interest, on programming was when I was 14 and tried editing [Wikipedia][wikipedia] pages using their Markup language, usually contribuiting to sports-related pages (mostly tennis and football).
+I'm <i>[potiguar][potiguar]</i> and I was born in 1993. I began coding in 2012, when I started my graduation in S&T -- initially programming in C/C++. I believe that my first experience, and interest, in programming was when I was 14 and tried editing [Wikipedia][wikipedia] pages using their Markup language, usually contribuiting to sports-related pages (mostly tennis and football).
 
 And I believe it was also sports that got me interested on data and statistics. As a huge football and tennis fan I was very interested about numbers on team/player performance (I kinda loved the [IBM SlamTracker][slamtracker]), and I was always trying to build <sup><sub>(very limited)</sub></sup> datatables using excel spreadsheets so I could see numbers about [Flamengo][flamengo] players, Grand Slams, or the [local state championship][camp-potiguar]. Since I knew nothing about data processing back then, it was a pretty useless (but fun) effort.
 
@@ -37,7 +40,7 @@ Today, I'm learning and applying data science and machine learning in both my jo
 
 + **Continuing education**\\
 2019: Advanced Machine Learning with IBM Specialization, at Coursera <sub><sup><i>[certificate][ibm-advanced-certificate]</i></sup></sub> \\
-2019: Data Science and Big Data Analytics, at MIT xPro \\
+2019: Data Science and Big Data Analytics, at MIT xPro <sub><sup><i>[certificate][mit-xpro-certificate]</i></sup></sub>\\
 2018 -- 2019: Machine Learning Engineering Nanodegree, at Udacity <sub><sup><i>[certificate][udacity-certificate]</i></sup></sub>
 
 + **Language courses**\\
@@ -71,6 +74,7 @@ Please check out a few of my projects at **[{ Projects }][projects]**.
 [sinfo]: https://info.ufrn.br
 [ibm-advanced-certificate]: https://www.coursera.org/account/accomplishments/specialization/certificate/7KXHKR3BP9XC
 [udacity-certificate]: https://confirm.udacity.com/RGFG27L
+[mit-xpro-certificate]: https://mitxpro.mit.edu/certificates/de4683b0ec9f4f6fbd34cc54de002367
 [embassy-certificate]: https://drive.google.com/open?id=1WxPzDHerBRQz-GA8PvubMGskB0lSH077
 [wizard-certificate]: https://drive.google.com/open?id=10-pmM2yV4CEuTdsIougES08kBocCOq6-
 [proenglish-certificate]: https://drive.google.com/open?id=1jaMRUjRRIjNjNpCplkwE83JIwB1vuY7O

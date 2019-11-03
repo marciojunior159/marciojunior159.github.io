@@ -5,11 +5,12 @@ pagination:
 ---
 
 <div class="home">
-
-<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
-  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+ <!-- {% if site.cover %}has-cover{% endif %}" {% if site.cover %} style="background-image: url({{ site.cover | prepend: site.baseurl }});" {% endif %}-->
+ <!--SCRIM {% if site.cover %}has-cover{% endif %} -->
+<div class="site-header-container" >
+  <div class="scrim">
     <header class="site-header">
-      <h1 class="title">{{ site.title }}</h1>
+      <h2 class="title">{{ site.title }}</h2>
       {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
     </header>
 	<!-- <div class="site-contact"> -->
@@ -39,14 +40,16 @@ pagination:
 
 <div class="wrapper">
 
-<span> Hello! My name is Marcio and I'm a computer engineer and data scientist from Natal, Rio Grande do Norte, Brazil. Currently, I'm engaged in a Master's degree in Intelligent Information Processing, at UFRN-Natal, and I'm also working as a Data Analyst at Nordestao. In the <b><a href="projects/">{ Projects }</a></b> sections you can check some of the things I've done, and in the <b><a href="about/">{ About }</a></b> section you can learn a little more about who I am. Please feel free to contact me by e-mail or to reach me on any other media.</span>
+<p> Hello! My name is Márcio and I'm a computer engineer and data scientist from Natal, Rio Grande do Norte, Brazil. Currently, I'm engaged in a Master's degree in Intelligent Information Processing, at UFRN-Natal, and I'm also working as a Data Analyst at Nordestao.</p>
+
+<p> In the <b><a href="projects/">{ Projects }</a></b> section you can check some of the things I've done, and in the <b><a href="about/">{ About }</a></b> section you can learn a little more about who I am. Please feel free to contact me by e-mail or to reach me on any other media. &#128513</p>
 
 <div class="site-contact">
 	<table>
 		<tr>
 			<td class="even">
 				<a href="mailto:{{ site.email }}" title="Send me an e-mail">
-					<i style="font-size:1.3em" class="fai fa fa-envelope-o"></i>
+					<i style="font-size:1.5em" class="fai fa fa-envelope-o"></i>
 				</a>
 			</td>
 			
@@ -54,7 +57,7 @@ pagination:
 			{% if social.url != null %}
 			<td class="even">
 				<a href="{{ social.url }}" title="{{ social.desc }}">
-					<i style="font-size:1.3em" class="fai fa fa-{{ social.icon }}"></i>
+					<i style="font-size:1.5em" class="fai fa fa-{{ social.icon }}"></i>
 				</a>
 			</td>
 			{% endif %}

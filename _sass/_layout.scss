@@ -48,8 +48,8 @@ code {
 .fai {
 	display: inline-block;
 	border-radius: 10em;
-	color: $green;
-	box-shadow: 2px 2px 2px 0px #ffffff;
+	color: $black;
+	box-shadow: -2px 4px 4px -2px $black;
 	padding: 0.5em 0.5em;
 }
 
@@ -98,18 +98,18 @@ pre code.hljs {
 		background-position: 50% 0%;
 		background-size: cover;
 		.title {
-			font-size: modular-scale(2);
+			font-size: modular-scale(3);
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
 		}
 	}
 	.scrim {
-		height: 10em;
-		padding: 1em 1em;
+		height: 7em;
+		padding: 3em 1em;
 		&.has-cover {
 			background-color: rgba(0,0,0,0.3);
-			padding: 1em 10em !important;
+			padding: 1em 1em !important;
 			@include media($tablet) {
 				padding: 1em 1em !important;
 			}
@@ -146,7 +146,8 @@ pre code.hljs {
   }
   .logo {
     float: left;
-    height: 4em;
+	padding-top: 0.5em;
+    height: 1em;
     @include media ($tablet) {
     	padding-left: $em-base;
     }
@@ -156,7 +157,9 @@ pre code.hljs {
       padding-right: 1em;
     }
     span {
-    	font-size: 1.25em;
+    	font-size: 1.5em;
+		color: $black;
+		text-align: middle;
     }
   }
   nav {
@@ -254,15 +257,16 @@ pre code.hljs {
     }
 	}
 	.site-header-container {
-		color: $white;
-		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: $highlight-color;
+		color: $dark-gray;
+		/* text-shadow: 0 2px 1px rgba(0,0,0,0.33); */
+		/* background-color: $highlight-color; */
 		.site-header{
 			.title {
-				font-size: modular-scale(4);
+				font-size: modular-scale(3);
+				line-height: 0px;
 			}
 			.subtitle {
-				font-style: italic;
+				/* font-style: italic; */
 				font-size: modular-scale(1);
 			}
 		}
@@ -371,10 +375,10 @@ pre code.hljs {
 *	Footer
 */
 .site-footer {
-	$link-color: $white;
+	$link-color: $dark-gray;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
-	color: $white;
+	/* background-color: $highlight-color; */
+	color: $medium-gray;
 	a {
 	  color: $link-color;
 	  &:active,

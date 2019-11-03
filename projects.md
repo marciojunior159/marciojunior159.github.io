@@ -4,9 +4,7 @@ title: Projects
 permalink: /projects/
 main_nav: true
 ---
-
 ___
-
 ### Chatbot / CNN intent classifier
 
 ***Techs***: Java, Deeplearning4j, Spring, Thymeleaf  
@@ -45,6 +43,8 @@ ___
 ***Fields***: Search algorithms
 
 **Description**: Assignment from my *Applied Artificial Intelligence* class. This program reproduces the Greedy search and the A\* search algorithms using a Qt graphical interface.
+
+___
 
 [sinfo]: https://info.ufrn.br/
 [thesis]: https://monografias.ufrn.br/jspui/handle/123456789/8338?locale=en
