@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Márcio Lopes Júnior
-subtitle: Engineer & Data Scientist
-email: marciojunior159@gmail.com
-name: Márcio Lopes Júnior
+title: Márcio Lopes Jr
+subtitle: Data Scientist / Machine Learning Engineer
+email: mlopes.jr@outlook.com
+name: Márcio Lopes Jr
 description: >
   Hello, World! This is my personal GitHub page. :)
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -192,8 +192,8 @@ social:
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
     fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
+    fb_image_width: 350
+    fb_image_height: 350
     fb_image_type: "image/png"
 
     twitter_image: "/assets/logo.png"
